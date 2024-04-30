@@ -15,7 +15,7 @@ function App() {
   return (
     <UserContextProvider>
       <Routes>
-        <Route path="/" element={<div style={{background:"#CBA6F4",minHeight: "100vh"}}><Layout /></div>}>
+        <Route path="/" element={<div style={{background:"#E6D3FC",minHeight: "100vh"}}><Layout /></div>}>
           <Route index element={<IndexPage />} />
           <Route path="/login" element={<LoginPage />} />
           <Route path="/register" element={<RegisterPage />} />
